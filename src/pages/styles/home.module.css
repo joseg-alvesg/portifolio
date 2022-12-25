@@ -12,7 +12,7 @@
   justify-content: space-evenly;
   height: 100%;
 }
-
+/* comentario */
 .home > .infos {
   display: flex;
   flex-direction: column;
