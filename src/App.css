@@ -10,12 +10,17 @@
 
 @font-face{
   font-family: 'pixel';
-  src: url('./data/pixel.regular.ttf')
+  src: url('./data/pixel.regular.ttf');
+}
+
+@font-face {
+  font-family: 'pixeled';
+  src:  url('./data/Pixeled.ttf');
 }
 
 * {
   margin: 0;
-  font-family: 'pixel', sans-serif; 
+  font-family: 'pixeled';
 }
 
 .App {

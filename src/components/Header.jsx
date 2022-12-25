@@ -9,8 +9,8 @@ class Header extends Component {
         <ul className={ styles.ulHeader }>
             <Link to="/"><li>Home</li></Link>
           <Link to="/projects"><li>Projetos</li></Link>
-          {/* <Link to="/about">Sobre</Link>
-          <Link to="/contacts">Contatos</Link> */}
+          <Link to="/about">Sobre</Link>
+          <Link to="/contacts">Contatos</Link>
         </ul>
       </header>
     )

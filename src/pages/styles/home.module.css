@@ -12,7 +12,7 @@
   justify-content: space-evenly;
   height: 100%;
 }
-/* comentario */
+
 .home > .infos {
   display: flex;
   flex-direction: column;
@@ -36,7 +36,8 @@
   height: 40px;
   margin-top: 10px;
   text-align: center;
-  line-height: 57px;
+  /* line-height: 28px; */
+  line-height: 110%;
   background: linear-gradient(123deg, var(--black-color) , var(--purple-color) 98%);
   border-radius: 50%;
   font-size: 23px;
@@ -90,16 +91,16 @@
 .imagem {
   position: relative;
   color: transparent;
-  height: 270px;
-  width: 280px;
+  height: 280px;
+  width: 300px;
   align-items: center;
   justify-content: center;
 }
 
 .imagem > .img {
+  position: absolute;
   width: 250px;
   border-radius: 50%;
-  position: absolute;
   pointer-events: none;
 }
 

@@ -5,7 +5,6 @@ import { data } from '../data/infos'
 import styles from './styles/home.module.css';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
 import { BsTelegram } from 'react-icons/bs'
-import Image from '../components/Image';
 
 export default class Home extends Component {
   render() {
