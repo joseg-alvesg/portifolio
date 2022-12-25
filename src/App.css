@@ -1,0 +1,26 @@
+:root {
+  --black-color:#121214;
+  /* --purple-color:#985EBF; */
+  --purple-color:#4C0677  ;
+  --lightPurple-color:#D3BDF2;
+  --gray-color:#434959;
+  --snow-color:#E4EAF2;
+  --babyBlue-color:#8DE0F2;
+}
+
+@font-face{
+  font-family: 'pixel';
+  src: url('./data/pixel.regular.ttf')
+}
+
+* {
+  margin: 0;
+  font-family: 'pixel', sans-serif; 
+}
+
+.App {
+  height: 100%;
+  color: var(--snow-color);
+  background: var(--black-color);
+  background: linear-gradient(123deg, var(--black-color) , var(--purple-color) 96%);
+}
