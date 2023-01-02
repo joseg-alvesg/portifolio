@@ -3,7 +3,8 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { data } from '../data/infos'
 import styles from './styles/home.module.css';
-import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai';
+import ReactTypingEffect from 'react-typing-effect'
 import { BsTelegram } from 'react-icons/bs'
 
 export default class Home extends Component {
@@ -21,11 +22,11 @@ export default class Home extends Component {
           </div>
           <div className={ styles.infos }>
             <div className={ styles.texto }>
-              {data.presentation.welcome}
-              <div>{data.presentation.welcome}</div>
-              <div>{data.presentation.welcome}</div>
-              <div>{data.presentation.welcome}</div>
-              <div>{data.presentation.welcome}</div>
+              <ReactTypingEffect
+              text={ data.presentation.welcome }
+              eraseDelay={50000000}
+              speed={90}
+              />
             </div>
             <div className={ styles.imagem }>
               <img src={ data.image } alt="eu" className={ styles.img } />
@@ -34,13 +35,14 @@ export default class Home extends Component {
               <img src={ data.image } alt="eu" className={ styles.img } />
             </div>
             <div>
-              <div className={ `${styles.texto} ${styles.teste} `}>
-                {data.presentation.resume}
-                <div>{data.presentation.resume}</div>
-                <div>{data.presentation.resume}</div>
-                <div>{data.presentation.resume}</div>
-                <div>{data.presentation.resume}</div>
-              </div>
+              <ReactTypingEffect 
+              text={ data.presentation.resume } 
+              eraseDelay={50000000}
+              speed={80}
+              />
+            <div>
+
+            </div>
             </div>
           </div>
           <div>

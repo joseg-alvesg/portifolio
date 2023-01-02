@@ -1,7 +1,7 @@
 export const data = {
   presentation: {
     welcome: 'Bem vindos ao meu portifolio',
-    resume: 'Sou estudante de desenvolvimento web <Fullstack /> pela trybe.',
+    resume: 'Sou estudante de desenvolvimento web <Fullstack> pela trybe.',
   },
   about: {
     p1: "Meu nome é José Gerddicley Alves Gomes , tenho 25 anos, sou natural de Recife - PE",

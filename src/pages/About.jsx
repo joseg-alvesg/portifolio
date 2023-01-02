@@ -13,11 +13,11 @@ export default class About extends Component {
           <h1>Sobre mim</h1>
           <br />
           <br />
-          <p>{data.about.p1.toUpperCase()}</p>
+          <p>{data.about.p1}</p>
           <br />
-          <p>{data.about.p2.toUpperCase()}</p>
+          <p>{data.about.p2}</p>
           <br />
-          <p>{data.about.p3.toUpperCase()}</p>
+          <p>{data.about.p3}</p>
           <br />
         </div>
         <Footer />

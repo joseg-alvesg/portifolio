@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
+  width: 60%;
 }
 
 .iconContainer {
@@ -36,8 +37,7 @@
   height: 40px;
   margin-top: 10px;
   text-align: center;
-  /* line-height: 28px; */
-  line-height: 110%;
+  line-height: 48px;
   background: linear-gradient(123deg, var(--black-color) , var(--purple-color) 98%);
   border-radius: 50%;
   font-size: 23px;
@@ -71,26 +71,16 @@
 }
 
 .texto {
-  position: relative;
-  color: transparent;
+  background-color: rebeccapurple;
   font-weight: 700;
-  letter-spacing: -0.02em;
   font-size: 35px
 }
 
-.texto > div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: var(--lightPurple-color);
-  pointer-events: none;
-}
 
 .imagem {
   position: relative;
   color: transparent;
+  margin-top: 10px;
   height: 280px;
   width: 300px;
   align-items: center;
@@ -105,28 +95,28 @@
 }
 
 
-.texto:hover > div:nth-child(1), .imagem:hover > .img:nth-child(1) {
+.imagem:hover > .img:nth-child(1) {
   -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
   mask-image: linear-gradient(black 25%, transparent 25%);
-  animation: texto1 7s infinite;
+  animation: texto1 5s;
 }
 
-.texto:hover > div:nth-child(2), .imagem:hover > .img:nth-child(2)  {
+.imagem:hover > .img:nth-child(2)  {
   -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
   mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
-  animation: texto2 7s infinite;
+  animation: texto2 5s;
 }
 
-.texto:hover > div:nth-child(3), .imagem:hover > .img:nth-child(3)  {
+.imagem:hover > .img:nth-child(3)  {
    -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
   mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
-  animation: texto3 7s infinite;
+  animation: texto3 5s;
 }
 
-.texto:hover > div:nth-child(4), .imagem:hover > .img:nth-child(4) {
+.imagem:hover > .img:nth-child(4) {
    -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
   mask-image: linear-gradient(transparent 75%, black 75%);
-  animation: texto4 7s infinite;
+  animation: texto4 5s;
 }
 
 @keyframes texto1 {
@@ -136,12 +126,12 @@
   26% {
     transform: translateX(0%);
   }
-  83% {
+  /* 83% {
     transform: translateX(-0.1%);
   }
   100% {
     transform: translateX(-120%);
-  }
+  } */
 }
 
 @keyframes texto2 {
@@ -151,12 +141,12 @@
   24% {
     transform: translateX(0.5%);
   }
-  82% {
+  /* 82% {
     transform: translateX(-0.2%);
   }
   100% {
     transform: translateX(125%);
-  }
+  } */
 }
 
 @keyframes texto3 {
@@ -166,12 +156,12 @@
   22% {
     transform: translateX(0%);
   }
-  81% {
+  /* 81% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(-130%);
-  }
+  } */
 }
 
 @keyframes texto4 {
@@ -181,16 +171,17 @@
   20% {
     transform: translateX(0%);
   }
-  80% {
+  /* 80% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(135%);
-  }
+  } */
 }
 
-.teste {
+.resume {
   font-size: 20px;
+  font-style: italic;
 }
 
 .img {

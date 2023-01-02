@@ -3,25 +3,28 @@
   justify-content: flex-end;
   align-items: center;
   height: 45px;
-  /* background-color: var(--black-color); */
   background: linear-gradient(123deg, var(--black-color) , var(--purple-color) 99%);
 }
 
 .ulHeader {
   margin: 0 20px;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .ulHeader a {
   list-style: none;
+  font-size: 17px;
   text-decoration: none;
+  font-weight: bold;
   color: var(--snow-color);
 }
 
 .ulHeader a:hover {
-  color: fuchsia;
   text-decoration: none;
+  background: linear-gradient(90deg, var(--lightPurple-color) , var(--snow-color) 130%);
+  background-clip: text;
+  color: transparent;
 }
 
 .ulHeader a:after {

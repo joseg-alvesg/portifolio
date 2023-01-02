@@ -8,19 +8,14 @@
   --babyBlue-color:#8DE0F2;
 }
 
-@font-face{
-  font-family: 'pixel';
-  src: url('./data/pixel.regular.ttf');
-}
-
 @font-face {
-  font-family: 'pixeled';
-  src:  url('./data/Pixeled.ttf');
+  font-family: 'aboreto';
+  src: url('./data/Aboreto-Regular.ttf');
 }
 
 * {
   margin: 0;
-  font-family: 'pixeled';
+  font-family: 'aboreto';
 }
 
 .App {
