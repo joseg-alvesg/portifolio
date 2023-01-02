@@ -13,7 +13,8 @@ export const data = {
     github: 'https://github.com/joseg-alvesg',
     linkedin: 'https://www.linkedin.com/in/joseg-alves/',
     gmail: 'cinhoalves85@gmail.com',
-    whatsapp: 'wa.link/ea0wve',
+    whatsapp: 'https://wa.link/ea0wve',
     telegram: 'https://t.me/jose_alvesCinho',
+    phoneNumber: '(81) 99876-3646',
   },
 }
