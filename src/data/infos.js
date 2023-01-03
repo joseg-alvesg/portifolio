@@ -1,6 +1,6 @@
 export const data = {
   presentation: {
-    welcome: 'Bem vindos ao meu portifolio',
+    welcome: 'Bem vindos ao meu portfólio',
     resume: 'Sou estudante de desenvolvimento web <Fullstack> pela trybe.',
   },
   about: {
@@ -18,6 +18,9 @@ export const data = {
     phoneNumber: '(81) 99876-3646',
   },
   projetos: {
-    trybeTunes: 'project-trybe-tunes-lilac.vercel.app',
+    trybeTunes: {
+      buildLink: 'https://project-trybe-tunes-lilac.vercel.app',
+      githubLink: 'https://github.com/joseg-alvesg/project-trybeTunes',
+    },
   },
 }
