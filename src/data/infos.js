@@ -17,4 +17,7 @@ export const data = {
     telegram: 'https://t.me/jose_alvesCinho',
     phoneNumber: '(81) 99876-3646',
   },
+  projetos: {
+    trybeTunes: 'project-trybe-tunes-lilac.vercel.app',
+  },
 }

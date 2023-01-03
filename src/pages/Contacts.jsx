@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import styles from './styles/contacts.module.css'
-import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
-import ReactTypingEffect from 'react-typing-effect'
-import { data } from '../data/infos'
-import { BsTelegram } from 'react-icons/bs'
+import React, { Component } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import styles from './styles/contacts.module.css';
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai';
+import { data } from '../data/infos';
+import { BsTelegram } from 'react-icons/bs';
 
 export default class Contacts extends Component {
   render() {
