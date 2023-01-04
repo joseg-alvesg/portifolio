@@ -9,3 +9,20 @@
   width: 45%;
   height: 100%;
 }
+
+@media screen and (max-width: 600px) {
+  .aboutContainer {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .about {
+    height: 100%;
+  }
+
+  .aboutContainer {
+    width: 80%;
+  }
+}

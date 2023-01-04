@@ -24,6 +24,7 @@
   list-style: none;
   width: 60%;
 }
+
 .ul li {
   display: flex;
 }
@@ -99,4 +100,38 @@
 .ul a:hover span:after {
   width: 100%;
   background: linear-gradient(90deg, var(--black-color) , var(--purple-color) 91%);
+}
+
+@media screen and (max-width: 600px) {
+  .ul {
+    display: flex;
+    padding-left: 0;
+    margin-left: -90px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ul li a span {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  
+}
+
+@media screen and (max-height: 600px) {
+  .contacts {
+    height: 100%;
+  }
+  .section {
+    margin-top: 20px;
+  }
 }

@@ -201,3 +201,20 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-height: 600px) {
+  .imagem {
+    content-visibility: hidden;
+    width: 1px;
+    height: 1px;
+  }
+
+  .iconContainer {
+    gap: 1px;
+    margin-top: -50px;
+  }
+
+  .texto {
+    font-size: 27px;
+  }
+}
