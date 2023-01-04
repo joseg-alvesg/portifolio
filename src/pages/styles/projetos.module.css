@@ -36,3 +36,21 @@
   margin-top: 15px;
   width: 90%;
 }
+
+@media screen and (max-width: 600px) {
+  .section {
+    width: 80%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .container {
+    height: 100%;
+  }
+  
+  .section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+}
