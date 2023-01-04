@@ -1,8 +1,13 @@
 .footer {
-  display: flex;
-  height: 28px;
-  font-size: 10px;
-  background-color: var(--black-color);
   align-items: center;
+  background-color: var(--black-color);
+  display: flex;
+  font-size: 10px;
+  height: 28px;
   justify-content: center;
+}
+
+.footer section {
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -186,3 +186,18 @@
 .img {
   position: relative;
 }
+
+@media screen and (max-width: 600px) {
+  .imagem {
+    width: 170px;
+    height: 200px;
+  }
+
+  .imagem .img {
+    width: 180px;
+  }
+  
+  .texto {
+    font-size: 20px;
+  }
+}

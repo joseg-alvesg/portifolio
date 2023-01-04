@@ -41,3 +41,13 @@
   width: 100%;
   background: linear-gradient(90deg, var(--black-color) , var(--purple-color) 91%);
 }
+
+@media screen and (max-width: 600px) {
+  .ulHeader {
+    gap: 10px;
+  }
+
+  .ulHeader a {
+    font-size: 15px;
+  }
+}
