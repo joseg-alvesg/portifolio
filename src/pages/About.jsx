@@ -30,9 +30,9 @@ export default class About extends Component {
               </section>
             ))}
           </section>
-          {/* <section className={styles.softSkills}>
+          <section className={styles.softSkills}>
             sofSkills
-          </section> */}
+          </section>
 
         </div>
         <Footer />

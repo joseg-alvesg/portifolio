@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-height: 100vh;
 }
 
 .aboutContainer {
   margin-left: 15px;
-  height: 100%;
-  width: 100%;
+  width: 90%;
   margin-top: 30px;
+  margin: 0 auto;
 }
 
 .aboutContainer h1 {
@@ -40,6 +41,7 @@
 
 .skills {
   display: flex;
+  min-height: 58vh;
   height: 100%;
   width: 100%;
 }
