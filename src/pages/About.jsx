@@ -6,19 +6,34 @@ import styles from './styles/about.module.css';
 
 export default class About extends Component {
   render() {
+    const { text, tools: { focus } } = data.about;
     return (
-      <div className={ styles.about }>
+      <div className={styles.about}>
         <Header />
-        <div className={ styles.aboutContainer }>
+        <div className={styles.aboutContainer}>
           <h1>Sobre mim</h1>
-          <br />
-          <br />
-          <p>{data.about.p1}</p>
-          <br />
-          <p>{data.about.p2}</p>
-          <br />
-          <p>{data.about.p3}</p>
-          <br />
+          {text.map((te, index) => (
+            <div key={index + 1}>
+              <p>{te}</p>
+              <br />
+            </div>
+          ))}
+        </div>
+        <div className={styles.skills}>
+
+          <section className={styles.hardSkills}>
+            <h2>Hard Skills:</h2>
+            {focus.map(({ name, img }) => (
+              <section key={name}>
+                <p>{name}</p>
+                <img src={img} alt={name} />
+              </section>
+            ))}
+          </section>
+          {/* <section className={styles.softSkills}>
+            sofSkills
+          </section> */}
+
         </div>
         <Footer />
       </div>
