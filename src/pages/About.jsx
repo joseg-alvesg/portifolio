@@ -6,19 +6,29 @@ import styles from './styles/about.module.css';
 
 export default class About extends Component {
   render() {
+    const { text, skills: { hardSkills } } = data.about;
     return (
       <div className={ styles.about }>
         <Header />
         <div className={ styles.aboutContainer }>
           <h1>Sobre mim</h1>
-          <br />
-          <br />
-          <p>{data.about.p1}</p>
-          <br />
-          <p>{data.about.p2}</p>
-          <br />
-          <p>{data.about.p3}</p>
-          <br />
+          {text.map((te, index) => (
+            <div key={ index+1 }>
+              <p>{te}</p>
+              <br />
+            </div>
+          ))}
+        </div>
+        <div className={ styles.skills }>
+          <section className={ styles.hardSkills }>
+            {hardSkills.map((hard) => (
+              <p>{hard}</p>
+            ))}
+          </section>
+          <section>
+            sofSkills
+          </section>
+
         </div>
         <Footer />
       </div>

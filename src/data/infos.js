@@ -4,9 +4,19 @@ export const data = {
     resume: 'Sou José, estudante de desenvolvimento web <Fullstack> pela trybe.',
   },
   about: {
-    p1: "Meu nome é José Gerddicley Alves Gomes , tenho 25 anos, sou natural de Recife - PE",
-    p2: "Grande fã de jogos, leitura, cinema e gastronomia, alem disso, amo acampar, conhecer novos lugares e novas culturas. Desde criança sou apaixonado por tudo que envolve tecnologia aos 14 anos me tornei um grande entusiasta do mundo Linux.",
-    p3: "Sou proativo, dinâmico, empático, analítico e cooperativo."
+    text: [
+      "Meu nome é José Gerddicley Alves Gomes , tenho 25 anos, sou natural de Recife - PE",
+      "Grande fã de jogos, leitura, cinema e gastronomia, alem disso, amo acampar, conhecer novos lugares e novas culturas. Desde criança sou apaixonado por tudo que envolve tecnologia aos 14 anos me tornei um grande entusiasta do mundo Linux.",
+      "Sou proativo, dinâmico, empático, analítico e cooperativo.",
+    ],
+    skills: {
+      hardSkills: [      
+        'HTML', 'React', 'CSS', 'javaScript'
+      ],
+      softSkill: {
+          
+      },
+    },
   },
   image: 'https://media.licdn.com/dms/image/C4D03AQElaRrXoEB7Gw/profile-displayphoto-shrink_800_800/0/1662475663721?e=1677110400&v=beta&t=rIIND0V2oP9i77CFmIccXJLgYdjA3mLNZwRnb17tMRo',
   contats: {
@@ -21,6 +31,17 @@ export const data = {
     trybeTunes: {
       buildLink: 'https://project-trybe-tunes-lilac.vercel.app',
       githubLink: 'https://github.com/joseg-alvesg/project-trybeTunes',
+    },
+  },
+  skills: {
+    hardSkills: {      
+      html: 'HTML',
+      react: 'React',
+      css: 'CSS',
+      javaScript: 'javaScript',
+    },
+    softSkill: {
+        
     },
   },
 }

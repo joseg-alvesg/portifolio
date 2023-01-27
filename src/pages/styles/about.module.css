@@ -1,7 +1,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  width: 100%;
 }
 
 .aboutContainer {
@@ -25,4 +25,17 @@
   .aboutContainer {
     width: 80%;
   }
+}
+
+.skills {
+  width: 100%;
+  height: 100%;
+}
+
+.hardSkills {
+  display: grid;
+  background-color: red;
+  /* width: 100%; */
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr;
 }
