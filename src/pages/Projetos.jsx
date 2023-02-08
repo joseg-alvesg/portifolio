@@ -17,11 +17,11 @@ import 'swiper/css/pagination';
 /* DATA */
 import { data } from '../data/infos';
 import trybetunesPrint from '../data/images/trybetunes-foto.png';
-
+import trybewalletPrint from '../data/images/trybeWallet.png';
 
 export default class Projetos extends Component {
   render() {
-    const { trybeTunes: { githubLink, buildLink } } = data.projetos;
+    const { trybeTunes, trybeWallet } = data.projetos;
     return (
       <div  className={ styles.container }>
         <Header />
@@ -36,9 +36,17 @@ export default class Projetos extends Component {
             >
               <SwiperSlide>
                 <div className={ styles.element }>
-                  <a href={ githubLink }>Projeto trybeTunes <BsGithub /></a>
-                  <a href={ buildLink } target="_blank" rel="noreferrer">
-                    <img src={ trybetunesPrint } alt="" />
+                  <a href={ trybeTunes.githubLink }>Projeto trybeTunes <BsGithub /></a>
+                  <a href={ trybeTunes.buildLink } target="_blank" rel="noreferrer">
+                    <img src={ trybetunesPrint } alt="trybetunes" />
+                  </a>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className={styles.element}>
+                  <a href={ trybeWallet.githubLink }>Projeto trybeWallet <BsGithub /></a>
+                  <a href={ trybeWallet.buildLink } target="_blank" rel="noreferrer">
+                    <img src={ trybewalletPrint } alt="trybewallet" />
                   </a>
                 </div>
               </SwiperSlide>

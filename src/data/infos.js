@@ -19,6 +19,10 @@ export const data = {
       buildLink: "https://project-trybe-tunes-lilac.vercel.app",
       githubLink: "https://github.com/joseg-alvesg/project-trybeTunes",
     },
+    trybeWallet: {
+      buildLink: "https://project-trybe-wallet-eight.vercel.app",
+      githubLink: "https://github.com/joseg-alvesg/project-trybeWallet"
+    },
   },
   about: {
     text: [
