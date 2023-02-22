@@ -1,42 +1,38 @@
-import React, { Component } from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import React from 'react'
 import { data } from '../data/infos'
 import styles from './styles/about.module.css';
+import AOS from 'aos';
 
-export default class About extends Component {
-  render() {
+export default function About() {
+    AOS.init();
     const { text, tools: { focus } } = data.about;
     return (
-      <div className={styles.about}>
-        <Header />
-        <div className={styles.aboutContainer}>
-          <h1>Sobre mim</h1>
-          {text.map((te, index) => (
-            <div key={index + 1}>
-              <p>{te}</p>
-              <br />
-            </div>
-          ))}
-        </div>
-        <div className={styles.skills}>
+      <div className={styles.test} id='about' data-aos="flip-left">
 
-          <section className={styles.hardSkills}>
-            <h2>Hard Skills:</h2>
-            {focus.map(({ name, img }) => (
-              <section key={name}>
-                <p>{name}</p>
-                <img src={img} alt={name} />
-              </section>
+        <div className={styles.about}>
+          <div className={styles.aboutContainer}>
+            <h1>Sobre mim</h1>
+            {text.map((te, index) => (
+              <div key={index + 1}>
+                <p>{te}</p>
+                <br />
+              </div>
             ))}
-          </section>
-          {/* <section className={styles.softSkills}>
-            sofSkills
-          </section> */}
+          </div>
+          <div className={styles.skills}>
 
+            <section className={styles.hardSkills}>
+              <h2>Hard Skills:</h2>
+              {focus.map(({ name, img }) => (
+                <section key={name}>
+                  <p>{name}</p>
+                  <img src={img} alt={name} />
+                </section>
+              ))}
+            </section>
+          </div>
         </div>
-        <Footer />
       </div>
     )
   }
-}
+

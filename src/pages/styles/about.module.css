@@ -1,13 +1,18 @@
+.test {
+  height: 100%;
+}
+
 .about {
   display: flex;
-  flex-direction: column;
   width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
 .aboutContainer {
   margin-left: 15px;
   height: 100%;
-  width: 100%;
+  width: 40%;
   margin-top: 30px;
 }
 
@@ -41,7 +46,7 @@
 .skills {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 40%;
 }
 
 .hardSkills {
@@ -56,17 +61,23 @@
 
 .hardSkills h2 {
   width: 100%;
+  align-self: center;
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 30px;
 }
 
-.hardSkills img, .hardSkills p {
-  width: 150px;
+.hardSkills img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.hardSkills p {
   font-size: 1.5em;
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 
 .softSkills {
   display: flex;
