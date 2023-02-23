@@ -5,7 +5,7 @@ export const data = {
       "Sou José, estudante de desenvolvimento web <Fullstack> pela trybe.",
   },
   image:
-    "https://media.licdn.com/dms/image/C4D03AQElaRrXoEB7Gw/profile-displayphoto-shrink_800_800/0/1662475663721?e=1677110400&v=beta&t=rIIND0V2oP9i77CFmIccXJLgYdjA3mLNZwRnb17tMRo",
+    "https://media.licdn.com/dms/image/C4D03AQElaRrXoEB7Gw/profile-displayphoto-shrink_800_800/0/1662475663721?e=1682553600&v=beta&t=0qmKcA6-f4-jl_l6QizAeXust0ri7_whaIQfiRZVnFY",
   contats: {
     github: "https://github.com/joseg-alvesg",
     linkedin: "https://www.linkedin.com/in/joseg-alves/",
